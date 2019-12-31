@@ -1,4 +1,4 @@
-###  [Unofficial implementation of LEDNet(https://github.com/xiaoyufenfei/LEDNet) on ADE20K
+###  Unofficial implementation of LEDNet(https://github.com/xiaoyufenfei/LEDNet) on ADE20K
 
 #### Introduction
 
