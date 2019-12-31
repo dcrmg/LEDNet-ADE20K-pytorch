@@ -9,25 +9,25 @@ LEDNet is a lightweight network, with an asymmetric encoder-decoder architecture
 
 #### Training
 - Download the ADE20K scene parsing dataset:
-'''
+```
 cd datasets
 chmod +x download_ADE20K.sh
 ./download_ADE20K.sh
-'''
+```
 
 -  Adjusting parameter before training, such as GPU ID, learning rate……
-'''
+```
 cd train
 python train.py
-'''
+```
 
 #### Testing
 - the trained models will be coming soon
 
-'''
+```
 cd train
 python  test.py
-'''
+```
 
 #### Results
 - coming soon
