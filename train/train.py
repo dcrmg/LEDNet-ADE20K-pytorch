@@ -250,7 +250,7 @@ def main(args):
         model = train(args, model, True)
     print("========== DECODER TRAINING ===========")
 
-    model.load_state_dict(torch.load('../save/logs/model_encoder_best.pth'))
+    #model.load_state_dict(torch.load('../save/logs/model_encoder_best.pth'))
 
     if args.pretrainedEncoder:
         print("Loading encoder pretrained in imagenet")
