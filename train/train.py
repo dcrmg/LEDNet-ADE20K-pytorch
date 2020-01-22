@@ -155,9 +155,8 @@ def train(args, model, enc=False):
             with torch.no_grad():
                 inputs = Variable(images)     
                 targets = Variable(labels)
-            
-            outputs = model(inputs, only_encode=enc)
-            loss = criterion(outputs, targets)
+                outputs = model(inputs, only_encode=enc)
+                loss = criterion(outputs, targets)
             epoch_loss_val.append(loss.item())
             time_val.append(time.time() - start_time)
 
